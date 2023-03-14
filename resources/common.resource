@@ -1,7 +1,7 @@
 *** Settings ***
-Library     SeleniumLibrary
-Resource    setup.resource
-
-
-*** Variables ***
-${BASE_URL}     https://www.google.com
+Library         SeleniumLibrary
+Resource        setup.resource
+Resource        pages/home_page.resource
+Resource        pages/login_page.resource
+Resource        pages/my_account.resource
+Variables       data/data.yaml

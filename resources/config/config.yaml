@@ -1,0 +1,13 @@
+CONFIG:
+  DEFAULT:
+    EXEC_ENV: HML
+    HEADLESS: False
+    SPEED: 0
+  PROD:
+    BASE_URL: https://www.automationtest.shop
+    BROWSER: chrome
+    TIMEOUT:  30
+  HML:
+    BASE_URL: https://www.automationtest.shop
+    BROWSER: chrome
+    TIMEOUT:  60
