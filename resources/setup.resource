@@ -5,9 +5,10 @@ Resource    common.resource
 
 *** Keywords ***
 Setup Web Environment
-    ${BROWSER}=    Get Environment Variable    BROWSER    default=Chrome
+    ${BROWSER}=    Get Environment Variable    BROWSER    default=chrome
 
-    Open Browser    url=about:blank    browser=${BROWSER}
+    Open Browser    url=${BASE_URL}    browser=${BROWSER}
+    Maximize Browser Window
 
 Teardown Web Environment
     Capture Page Screenshot    EMBED

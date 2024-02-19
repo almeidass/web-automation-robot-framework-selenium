@@ -4,4 +4,4 @@ Resource    setup.resource
 
 
 *** Variables ***
-${BASE_URL}     https://www.google.com
+${BASE_URL}    https://automationtest.shop

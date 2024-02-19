@@ -1,2 +1,2 @@
-robotframework~=6.0.2
-robotframework-seleniumlibrary~=6.0.0
+robotframework~=7.0
+robotframework-seleniumlibrary~=6.2.0

@@ -176,4 +176,5 @@ output.xml
 report.html
 selenium-screenshot-*.png
 
-# End of https://www.toptal.com/developers/gitignore/api/python,robotframework
+### General ###
+.vscode/launch.json
