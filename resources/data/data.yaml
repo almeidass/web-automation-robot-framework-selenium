@@ -1,7 +1,9 @@
-DATA_SET:
-  VALID_LOGIN:
-    EMAIL: eloahnascimento@example.net
-    PASSWORD: (J6dk&Bncj
-  INVALID_LOGIN:
-    EMAIL: dasdsad@sdsqaas.com
-    PASSWORD: asesd@123
+DATA:
+  PROD:
+    LOGIN:
+      EMAIL: grit70@uorak.com
+      PASSWORD: 123@Mudar
+  HML:
+    LOGIN:
+      EMAIL: grit70@uorak.com
+      PASSWORD: 123@Mudar
