@@ -1,7 +1,4 @@
 *** Settings ***
-Library     SeleniumLibrary
-Resource    setup.resource
-
-
-*** Variables ***
-${BASE_URL}    https://automationtest.shop
+Library      SeleniumLibrary
+Resource     setup.resource
+Variables    data/data.yaml
