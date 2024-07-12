@@ -48,7 +48,12 @@ Setup Test Environment
     Set Browser
 
 Setup Web Environment
-    Open Browser   about:blank	    ${BROWSER}
+    IF    ${HEADLESS}
+        Open Browser   about:blank	    chrome    options=add_argument("--headless"); add_argument("--no-sandbox")
+    ELSE
+        Open Browser   about:blank	    chrome
+    END
+
     Set Selenium Timeout    ${TIMEOUT}
     Maximize Browser Window
 
