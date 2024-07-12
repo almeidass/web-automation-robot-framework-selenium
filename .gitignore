@@ -179,3 +179,4 @@ selenium-screenshot-*.png
 ### General ###
 .vscode/launch.json
 interactive_console_output.xml
+.DS_Store

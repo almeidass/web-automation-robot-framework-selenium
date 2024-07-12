@@ -20,4 +20,5 @@ Access Home Page Via URL
     Go To    ${BASE_URL}
 
 Access Login Page
+    Wait Until Element Is Visible    ${BUTTON_SIGNIN}
     Click Element    ${BUTTON_SIGNIN}
